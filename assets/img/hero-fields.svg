@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-labelledby="t">
+  <title id="t">Illustration of a sun rising over green crop fields</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fdf3dc"/><stop offset="1" stop-color="#f7dfae"/></linearGradient>
+    <radialGradient id="sunG"><stop offset="0" stop-color="#ffd166"/><stop offset=".7" stop-color="#f6ad3c"/><stop offset="1" stop-color="#f29e38" stop-opacity="0"/></radialGradient>
+    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8bc34a"/><stop offset="1" stop-color="#5a9a3c"/></linearGradient>
+    <linearGradient id="h2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4c9a4f"/><stop offset="1" stop-color="#2e6b3f"/></linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a47148"/><stop offset="1" stop-color="#7a4f2e"/></linearGradient>
+    <clipPath id="frame"><rect width="600" height="480" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="600" height="480" fill="url(#sky)"/>
+    <circle cx="300" cy="230" r="150" fill="url(#sunG)" opacity=".55"/>
+    <circle cx="300" cy="230" r="70" fill="#f6b13d"/>
+    <g stroke="#f6b13d" stroke-width="6" stroke-linecap="round" opacity=".8">
+      <path d="M300 120v-30M222 152l-20-20M378 152l20-20M190 230h-30M410 230h30"/>
+    </g>
+    <path d="M0 250c90-40 190-40 300-10s210 20 300-20v260H0Z" fill="url(#h1)"/>
+    <path d="M0 300c120-50 250-30 360 0s170 10 240-10v190H0Z" fill="url(#h2)"/>
+    <path d="M0 360h600v120H0Z" fill="url(#soil)"/>
+    <g stroke="#5c3a20" stroke-width="3" opacity=".45">
+      <path d="M300 360 40 480M300 360 160 480M300 360 300 480M300 360 440 480M300 360 560 480"/>
+    </g>
+    <g fill="#9ccc65" stroke="#2e6b3f" stroke-width="1.5">
+      <g transform="translate(110 430)"><path d="M0 0v-30"/><path d="M0-14c-14 0-20-10-20-20 12 0 20 8 20 20Z"/><path d="M0-20c0-14 8-22 20-22 0 12-8 22-20 22Z"/></g>
+      <g transform="translate(230 420) scale(.85)"><path d="M0 0v-30"/><path d="M0-14c-14 0-20-10-20-20 12 0 20 8 20 20Z"/><path d="M0-20c0-14 8-22 20-22 0 12-8 22-20 22Z"/></g>
+      <g transform="translate(370 420) scale(.85)"><path d="M0 0v-30"/><path d="M0-14c-14 0-20-10-20-20 12 0 20 8 20 20Z"/><path d="M0-20c0-14 8-22 20-22 0 12-8 22-20 22Z"/></g>
+      <g transform="translate(490 430)"><path d="M0 0v-30"/><path d="M0-14c-14 0-20-10-20-20 12 0 20 8 20 20Z"/><path d="M0-20c0-14 8-22 20-22 0 12-8 22-20 22Z"/></g>
+    </g>
+    <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".7">
+      <path d="M90 110c8-8 16-8 24 0 8-8 16-8 24 0"/><path d="M450 80c6-6 12-6 18 0 6-6 12-6 18 0"/>
+    </g>
+  </g>
+</svg>

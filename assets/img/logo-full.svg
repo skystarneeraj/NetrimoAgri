@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-labelledby="lt">
+  <title id="lt">Nutrimo Agri Science</title>
+  <svg x="0" y="4" width="64" height="64" viewBox="0 0 64 64">
+  
+  <defs>
+    <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f9150"/>
+      <stop offset="1" stop-color="#1c4f2e"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#f29e38"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#7cb342"/>
+      <stop offset="1" stop-color="#c5e1a5"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <path d="M32 4 56 11.5V30c0 15.6-10.4 25.6-24 30C18.4 55.6 8 45.6 8 30V11.5Z"/>
+    </clipPath>
+  </defs>
+  <path d="M32 4 56 11.5V30c0 15.6-10.4 25.6-24 30C18.4 55.6 8 45.6 8 30V11.5Z" fill="url(#shield)"/>
+  <g clip-path="url(#clip)">
+    <g stroke="#ffd166" stroke-width="2.2" stroke-linecap="round">
+      <path d="M32 11v4M20.5 15.8l2.6 3M43.5 15.8l-2.6 3M14.5 24.5l3.6 1.4M49.5 24.5l-3.6 1.4"/>
+    </g>
+    <path d="M22 31a10 10 0 0 1 20 0Z" fill="url(#sun)"/>
+    <path d="M0 31h64v40H0Z" fill="#17442a" opacity=".55"/>
+    <path d="M32 55V38" stroke="#c5e1a5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M32 47c-8.5-.4-14-6-14.5-14.5C26 33 31.4 38.6 32 47Z" fill="url(#leaf)"/>
+    <path d="M32 44c.6-9.6 7-16 16.5-16.5C48 37 41.6 43.4 32 44Z" fill="url(#leaf)"/>
+    <path d="M32 44c3.6-4.8 8-9.6 13.5-13M32 47c-3-4-7-8-11.5-11" stroke="#1c4f2e" stroke-width="1" stroke-linecap="round" fill="none" opacity=".6"/>
+  </g>
+  <path d="M32 7.1 53.2 13.7V30c0 13.7-9 22.6-21.2 26.9C19.8 52.6 10.8 43.7 10.8 30V13.7Z" fill="none" stroke="#f5efe3" stroke-opacity=".55" stroke-width="1.2"/>
+</svg>
+  <text x="76" y="40" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="30" font-weight="800" fill="#1c4f2e">Nutrimo</text>
+  <text x="78" y="60" font-family="Manrope, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="4.2" fill="#8b5e3c">AGRI SCIENCE</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "name": "Nutrimo Agri Science",
+  "short_name": "Nutrimo",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#1c4f2e",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
